@@ -1,0 +1,298 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	/* background: url(../img/fond7.jpg) center fixed; la imagen se centre y que se fije en el ancho de la ventana
+	background-repeat: no-repeat; que la imagen se auto conplete
+	background-size: cover; la imagen se encaja en pantalla
+	background-position: center center;*/
+	background-color: #000;
+}
+
+.barra-nav{/*barra negra de navegacion*/
+	width: 100%;
+	margin-top: 40px;
+	height: 75px;	
+}
+
+.barra-nav-activa:hover{/*barra negra de navegacion*/
+	margin-top: 40px;
+	height: 75px;	
+	background: rgba(0,0,0,.6);
+	/* overflow: auto;  mantienen el contenido en la caja , pero lo hace con barras*/
+}
+
+.mg{/*Logo card print*/
+	width: 200px;
+	margin-top:17px;
+	position: relative;
+	left: 61px;
+}
+
+.ladrillo{/*color de letras*/
+	color: rgb(231, 82, 68);
+}
+
+.turqueza{/*color de letras*/
+	color: rgb(57, 188, 164);
+}
+
+.marron{/*color de letras*/
+	color: rgb(76, 86, 94);
+}
+
+.amarillo{/*color de letras*/
+	color: rgb(241, 238, 218);
+}
+
+.blanco{/*color de letras o fuente*/
+	color: #fff;
+}
+
+nav li{
+	display: inline-block;
+	font-size: 1.2em;
+	list-style: none;
+	margin-top: 35px;
+	margin-left: ;
+	letter-spacing: .1em;
+	margin-right: 0;
+	margin-left: 10;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav a:link{/*interctividad de navegador*/
+	color: rgb(76, 86, 94);
+	text-decoration: none;
+}
+
+nav a:hover{/*interctividad de navegador*/
+	padding: 1px 2px;
+	background: rgba(255,255,255,.8);
+	color: rgb(76, 86, 94);
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+nav a:active{/*interctividad de navegador*/
+	padding: 0px;
+	background: rgba(231, 82, 68,.5);
+	color: rgba(255, 255, 255,.5);
+	text-decoration: none;
+}
+
+.box-negro{
+	position: relative;
+	top: 50px;
+	height: 600px;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0.48) 0%, rgba(0,0,0,0.32) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.48)), color-stop(100%,rgba(0,0,0,0.32))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0.48) 0%,rgba(0,0,0,0.32) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,0,0,0.48) 0%,rgba(0,0,0,0.32) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0.48) 0%,rgba(0,0,0,0.32) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,0,0,0.48) 0%,rgba(0,0,0,0.32) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a000000', endColorstr='#52000000',GradientType=1 ); /* IE6-9 */
+	border-radius: 100px;
+	box-shadow: 0px 0px 20px #000;
+}
+
+.circle1{
+	width: 130px;
+	height: 130px;
+	border-radius: 100px;
+	background: rgb(57, 188, 164);
+	position: absolute;
+	top: 47px;
+	bottom:; 
+	left: 80px;
+	right: ;
+	/*box-shadow: 0px 0px 15px #000;*/
+	text-decoration: none;
+	color: #fff;
+}
+
+.circle2{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	/*background: rgb(252, 120, 89);*/
+	position: absolute;
+	top: 224px;
+	bottom:; 
+	left: 71px;
+	right: ;
+	/*box-shadow: 0px 0px 15px #000;*/
+	border: 5px dashed rgb(231, 82, 68);
+	text-decoration: none;
+	color: #fff;
+}
+
+.circle21{
+	width: 130px;
+	height: 130px;
+	border-radius: 100px;
+	background: rgb(231, 82, 68);
+	position: absolute;
+	top: 5px;
+	bottom:; 
+	left: 5px;
+	right: ;
+	/*box-shadow: 0px 0px 15px #000;*/
+	text-decoration: none;
+	color: #fff;
+}
+
+.circle3{
+	width: 130px;
+	height: 130px;
+	border-radius: 100px;
+	background: rgb(76, 86, 94);
+	position: absolute;
+	top: 421px;
+	bottom:; 
+	left: 80px;
+	right: ;
+	/*box-shadow: 0px 0px 15px #000;*/
+	text-decoration: none;
+	color: #fff;
+}
+
+.circle4{/*para que la fuente sea delgada es light=300,normal=400,bold=700*/
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: rgba(0, 0, 0,0);
+	padding: 47px;
+	/*position: absolute;
+	top: 565px;
+	bottom:; 
+	left: 817px;
+	right: ;*/
+	/*box-shadow: 0px 0px 15px #000;*/
+	color: rgba(0, 0, 0,0);
+	font-size: 1.6em;
+	text-align: center;
+	line-height: 1.1em;
+	margin-top: 270px;
+}
+
+.circle4:hover{/*para que la fuente sea delgada es light=300,normal=400,bold=700*/
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: rgb(0, 157, 132);
+	padding: 47px;
+	/*position: absolute;
+	top: 565px;
+	bottom:; 
+	left: 817px;
+	right: ;*/
+	box-shadow: 0px 0px 15px #000;
+	color: #fff;
+	font-size: 1.6em;
+	text-align: center;
+	line-height: 1.1em;
+	margin-top: 270px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.circle1-activo:hover,.circle2-activo:hover,.circle3-activo:hover{
+	background: rgb(0,0,0);
+}
+
+.circle2-activo:hover,.circle21-activo:hover{
+	background: rgb(0,0,0);
+	border: 5px dashed rgb(0, 0, 0);
+}
+
+.light{
+	font-style: 300;
+}
+
+.normal{
+	font-style: 400;
+}
+
+.bold{
+	font-style: 700;
+}
+
+div p{
+	color: #fff;
+	font-size: 1.6em;
+	text-align: center;
+	line-height: 1.1em;
+	margin-top: 38px;
+}
+
+.barra-nav-black{/*barra negra de footer*/
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 35%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(54%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 35%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 35%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 35%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 35%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+	height: 70px;
+	margin-top: 100px;
+	font-size: .7em;
+}
+
+.horario{
+	text-align: left;
+	margin-top: 16px;
+	line-height: 1.4em;
+	letter-spacing: .1em;
+	font-style: 400;
+}
+
+img[src="img/face_logo_gris.png"],img[src="img/mail_icono_gris.png"],img[src="img/logo_cardprint_gris.png"],img[src="img/ayuda_icono_gris.png"]{
+	height: 18px;
+	margin-left: 10px;
+	margin-top: 35px;
+	float: left;	
+}
+
+.retraso1{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay:1s;
+}
+
+.retraso2{
+	-webkit-animation-delay:1.5s;
+	-moz-animation-delay:1.5s;
+	animation-delay:1.5s;
+}
+
+.retraso3{
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+}
+
+.dis-play img{/*los servicios y opciones en lista los convierte en bloques*/
+	float: left;
+	height: 18px;
+	margin-top: 40px;
+	margin-left: 0px;
+}
+
+.left-horario{/*empuja los horario desde la izquierda*/
+	margin-left: 0px;
+}
+
+.sociales:hover{/*efecto al pasar el puntero sobre iconos de interactividad face,mail,ayuda,icono cardprint*/
+	position: relative;
+	bottom: 6px;
+	right: 3px;
+	height: 24px;
+	background: rgba(57, 188, 164,.5); /*transparencia color Turqueza*/
+	/* background:rgba(231, 82, 68,.5); transparencia colorLadrillo*/
+	padding: 3px;
+	border-radius: 5px;
+}
+
+rgb(231, 82, 68);

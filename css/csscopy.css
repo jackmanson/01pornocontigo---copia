@@ -1,0 +1,35 @@
+.css3-effect .st-main-menu ul.menu>li>ul>li>ul{
+    opacity:0;
+    filter: alpha(opacity=0);
+    transform: scale(1,0);
+    -webkit-transform: scale(1,0);
+    -moz-transform: scale(1,0);
+    -o-transform: scale(1,0);
+    -ms-transform: scale(1,0);
+    
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; 
+}
+.css3-effect .st-main-menu ul.menu>li:hover>ul>li:hover>ul{
+       opacity:1;
+    filter: alpha(opacity=100);
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; 
+}
+.st-main-menu ul.menu>li:hover>ul>li:hover>ul{
+    height:auto;
+    opacity:1;
+    filter: alpha(opacity=100);
+}
